@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>How to install NVIDIA drivers? - Liun</title>
+    <link rel="stylesheet" href="../../css/body.css">
+    <link rel="stylesheet" href="../../css/elements.css">
+</head>
+<body>
+    <a href="index.html">Go back</a>
+    <br> <br>
+
+    1. Enable non-free repos.
+
+    <br> <br>
+
+    2. Type: <code>sudo mkdir -p /etc/modprobe.d 2>/dev/null && sudo apt update && sudo apt install nvidia-detect -y</code>
+
+    <br> <br>
+
+    3. Type: <code>sudo nvidia-detect</code>
+
+    <br> <br>
+
+    4. Install the driver the utility recommends. The syntax is: <code>sudo apt install {drivername}</code>.
+
+    For example: <code>sudo apt install nvidia-driver</code>
+
+    <br> <br>
+
+    5. Reboot your system.
+
+</body>
+</html>
